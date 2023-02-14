@@ -20,11 +20,14 @@ nav a {
     font-size: 1.2rem;
     color: black;
     padding: 14px;
+    transition: all 1s ease-in-out;
     position: relative;  
 }
 
 a:hover {
     color: white;
+    transition: 1s;
+    transform: scale(1);
 }
 
 .home {
